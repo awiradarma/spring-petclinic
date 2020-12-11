@@ -81,6 +81,11 @@
       <artifactId>mysql-connector-java</artifactId>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>org.gridgain</groupId>
+      <artifactId>ignite-core</artifactId>
+      <version>8.7.9</version>
+    </dependency>
 
     <!-- caching -->
     <dependency>
@@ -292,6 +297,11 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>GridGain External Repository</id>
+      <url>https://www.gridgainsystems.com/nexus/content/repositories/external</url>
+    </repository>
+
   </repositories>
 
   <pluginRepositories>
